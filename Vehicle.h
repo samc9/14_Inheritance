@@ -9,6 +9,7 @@ private:
 	std::string manufacturer;
 	int yearBuilt;
 public:
+	Vehicle(std::string, int);
 	std::string getManufacturer();
 	void setManufacturer(std::string);
 	int getYear();

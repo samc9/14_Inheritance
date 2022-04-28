@@ -1,4 +1,6 @@
 #pragma once
+#ifndef CAR_H
+#define	CAR_H
 #include "Vehicle.h"
 class Car :
     public Vehicle
@@ -6,10 +8,12 @@ class Car :
 private:
     int doors;
 public:
-    Car();
+    Car(std::string, int, int);
     int getDoors();
     void setDoors(int);
+    void displayInfo();
 
 
 };
 
+#endif

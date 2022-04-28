@@ -1,5 +1,10 @@
 #include "Vehicle.h"
 #include <iostream>
+Vehicle::Vehicle(std::string man, int year)
+{
+	manufacturer = man;
+	yearBuilt = year;
+}
 std::string Vehicle::getManufacturer()
 {
 	return manufacturer;
